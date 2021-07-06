@@ -6,6 +6,9 @@ target 'DemoTask' do
   use_frameworks!
 
   # Pods for DemoTask
+  
+  pod 'Kingfisher'
+  pod 'ProgressHUD'
 
   target 'DemoTaskTests' do
     inherit! :search_paths
